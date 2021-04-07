@@ -1,7 +1,7 @@
 window.onbeforeunload = confirmExit;
 
 
-function warnOnItemLevel () {
+function warnOnItemLevel0 () {
 
 
   var changedObjects = [];
@@ -62,13 +62,36 @@ function warnOnItemLevel () {
   // select
 
   for (item of changedObjects) {
-      console.log({item})
-      errors.push( {
+      if (!apex.item(item.id).element[0].classList.value.includes("js-ignoreChange")) {
+         errors.push( {
                       message: 'This item has unsaved changes',
                       location: "inline",
                       pageItem: item.id
                   } )
+      } else {
+        console.log('ignore change for '+item.id);
+      }
   }
+  apex.message.clearErrors();
+  apex.message.showErrors( errors );
+
+}
+
+function warnOnItemLevel () {
+
+  var errors = [];
+
+  allItems = apex.page.forEachPageItem;
+  allItems( $( "#wwvFlowForm" ), function( el, name ) {
+          if (apex.item(name).isChanged() && !apex.item(name).element[0].classList.value.includes("js-ignoreChange")) {
+            errors.push( {
+                      message: 'This item has unsaved changes',
+                      location: "inline",
+                      pageItem: name
+                  } )
+          };
+      }, true );
+  
   apex.message.clearErrors();
   apex.message.showErrors( errors );
 
