@@ -8,10 +8,11 @@ allItems(
       apex.item(name).isChanged() &&
       !apex.item(name).element[0].classList.value.includes("js-ignoreChange")
     ) {
-      changedObjects.push(name);
+      changedObjects.push(el);
     }
   },
   true
 );
 
 console.log("Changed", changedObjects);
+apex - detect - changed - items;
