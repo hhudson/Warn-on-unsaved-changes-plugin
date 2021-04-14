@@ -18,6 +18,10 @@ This Oracle APEX plugin is designed to provide item-level feedback on which page
 
 This plugin can be installed APEX environments 20.2 and higher. If you wish to make use the functionality in a lower APEX environment, you can follow the steps described in this video : [How to find out which Items changed in APEX](https://youtu.be/4VntEDmShXg)
 
+### Modal Pages
+
+This plugin is designed to not operate on Modal Pages.
+
 ### Further viewing / reading
 
 This plugin was inspired by Episode #20 from the APEX Instant Tip series:
