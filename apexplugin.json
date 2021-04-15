@@ -1,7 +1,7 @@
 {
-  "name": "Plugin to Enhance the 'Warn on Unsaved Changes' UX",
+  "name": "Plugin to Enhance the Warn on Unsaved Changes UX",
   "version": "1.0",
-  "description": "This Oracle APEX plugin is designed to provide item-level feedback on which page item holds the 'unsaved changes' that trigger the alert 'Leave Site?Changes you made may not be saved'. Specifically, the message 'This item has unsaved changes' will be added next to the offending item in question.",
+  "description": "This plugin is designed to provide item-level feedback on which page item holds the unsaved changes that trigger the alert. Specifically, a message will be added next to the offending item in question.",
   "keywords": ["oracle", "apex", "plugin", "warn", "unsaved"],
   "homepage": "https://github.com/hhudson/Warn-on-unsaved-changes-plugin",
   "bugs": {
