@@ -20,7 +20,7 @@ This plugin can be installed APEX environments 20.2 and higher. If you wish to m
 
 ### Modal Pages
 
-This plugin is designed to not operate on Modal Pages.
+This plugin defaults to not operate on Modal Pages but a setting is available to switch it on for Modal Pages too.
 
 ### Further viewing / reading
 
