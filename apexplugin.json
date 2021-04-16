@@ -1,33 +1,33 @@
 {
   "name": "Plugin to Enhance the Warn on Unsaved Changes UX",
   "version": "1.0",
-  "description": "It´s useful to guide your users through the application, or give your users a first run wizard to explain parts of your app.",
-  "keywords": ["guide", "tour", "shepherd", "firstrun"],
-  "homepage": "https://github.com/Dani3lSun/apex-plugin-guidedtour",
+  "description": "This plugin is designed to provide item-level feedback on which page item holds the unsaved changes",
+  "keywords": ["warn", "unsaved", "changes"],
+  "homepage": "https://github.com/hhudson/Warn-on-unsaved-changes-plugin",
   "bugs": {
-    "url": "https://github.com/Dani3lSun/apex-plugin-guidedtour/issues",
-    "email": "daniel@danielh.de"
+    "url": "https://github.com/hhudson/Warn-on-unsaved-changes-plugin/issues",
+    "email": "hhudson@insum.ca"
   },
   "license": "MIT",
   "commercial": "No",
   "author": {
     "name": "Hayden Hudson",
-    "email": "daniel@danielh.de",
-    "url": "http://blog.danielh.de/"
+    "email": "hhudson@insum.ca",
+    "url": "http://2122.io"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Dani3lSun/apex-plugin-guidedtour.git"
+    "url": "https://github.com/hhudson/Warn-on-unsaved-changes-plugin.git"
   },
   "oracle": {
-    "versions": ["11.2.0.1", "12.1.0.1"],
+    "versions": ["11.2.0.1", "12.1.0.1", "18.0.0.0"],
     "apex": {
-      "versions": ["5.0.0"],
+      "versions": ["20.2.0"],
       "plugin": {
         "internalName": "IO.2122.WARN_ON_UNSAVED_CHANGES",
         "type": "dynamic action",
-        "demo": "https://apex.oracle.com/pls/apex/f?p=57743:1",
-        "previewImage": "https://raw.githubusercontent.com/Dani3lSun/apex-plugin-guidedtour/master/preview.png"
+        "demo": "https://youtu.be/4VntEDmShXg",
+        "previewImage": "https://raw.githubusercontent.com/hhudson/Warn-on-unsaved-changes-plugin/main/img/warn_on_unsaved_screenshot.png"
       }
     }
   }
