@@ -1,0 +1,35 @@
+{
+  "name": "Plugin to Enhance the Warn on Unsaved Changes UX",
+  "version": "1.0",
+  "description": "This plugin is designed to provide item-level feedback on which page item holds the unsaved changes that trigger the alert. Specifically, a message will be added next to the offending item in question.",
+  "keywords": ["oracle", "apex", "plugin", "warn", "unsaved"],
+  "homepage": "https://github.com/hhudson/Warn-on-unsaved-changes-plugin",
+  "bugs": {
+    "url": "https://github.com/hhudson/Warn-on-unsaved-changes-plugin/issues",
+    "email": "hhudson@insum.ca"
+  },
+  "license": "MIT",
+  "commercial": "No",
+  "author": {
+    "name": "Hayden Hudson",
+    "email": "hhudson@insum.ca",
+    "url": "https://2122.io",
+    "twitter": "haydenhhudson"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hhudson/Warn-on-unsaved-changes-plugin.git"
+  },
+  "oracle": {
+    "versions": ["18.0.0.0.0"],
+    "apex": {
+      "versions": ["20.2.0.00.20"],
+      "plugin": {
+        "internalName": "IO.2122.WARN_ON_UNSAVED_CHANGES",
+        "type": "Dynamic Action",
+        "demo": "https://youtu.be/4VntEDmShXg",
+        "previewImage": "https://raw.githubusercontent.com/hhudson/Warn-on-unsaved-changes-plugin/main/img/warn_on_unsaved_screenshot.png"
+      }
+    }
+  }
+}
