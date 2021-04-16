@@ -1,5 +1,5 @@
 {
-  "name": "GuidedTour",
+  "name": "Plugin to Enhance the Warn on Unsaved Changes UX",
   "version": "1.0",
   "description": "It´s useful to guide your users through the application, or give your users a first run wizard to explain parts of your app.",
   "keywords": ["guide", "tour", "shepherd", "firstrun"],
@@ -11,7 +11,7 @@
   "license": "MIT",
   "commercial": "No",
   "author": {
-    "name": "Daniel Hochleitner",
+    "name": "Hayden Hudson",
     "email": "daniel@danielh.de",
     "url": "http://blog.danielh.de/"
   },
@@ -24,7 +24,7 @@
     "apex": {
       "versions": ["5.0.0"],
       "plugin": {
-        "internalName": "DE.DANIELH.GT.NEWINSTANCE",
+        "internalName": "IO.2122.WARN_ON_UNSAVED_CHANGES",
         "type": "dynamic action",
         "demo": "https://apex.oracle.com/pls/apex/f?p=57743:1",
         "previewImage": "https://raw.githubusercontent.com/Dani3lSun/apex-plugin-guidedtour/master/preview.png"
