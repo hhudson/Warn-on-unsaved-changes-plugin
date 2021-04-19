@@ -10,6 +10,7 @@ This Oracle APEX plugin is designed to provide item-level feedback on which page
 
 1.  Install the plugin in your APEX application
 2.  On Page 0, add a page load dynamic action with a true action of type "Warn on Unsaved Change Enhancement [Plug-In]
+    ![screenshot](img/pageZero.png)
 3.  Done! Visit a page for which "Warn on Unsaved Changes" is turned on at both the page and item level and attempt to leave said-page with an unsaved change to observe the behavior (screenshot above as illustration).
 
 ## Notes
